@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Taxi Booking System</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Taxi</h2>
+            <form id="bookingForm">
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="time">Pickup Time:</label>
+                <input type="datetime-local" id="time" name="time" required>
+
+                <button type="submit">Book Taxi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Taxi Booking System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
